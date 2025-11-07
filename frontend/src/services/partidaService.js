@@ -1,5 +1,5 @@
-// Servicio para llamar al endpoint /api/scrims del backend
-export async function buscarScrims(filters = {}) {
+// Servicio para llamar al endpoint /api/partidas del backend
+export async function buscarPartidas(filters = {}) {
   const params = new URLSearchParams();
   if (filters.juego) params.append('juego', filters.juego);
   if (filters.region) params.append('region', filters.region);
@@ -15,7 +15,7 @@ export async function buscarScrims(filters = {}) {
   const res = await fetch(url);
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`Error fetching scrims: ${res.status} ${text}`);
+    throw new Error(`Error fetching partidas: ${res.status} ${text}`);
   }
   return res.json();
 }

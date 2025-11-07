@@ -33,7 +33,6 @@ public class Usuario implements UserDetails, NotificacionObserver{
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
     private Long id;
-
     private String nombre;
     private String apellido;
     @Column(unique = true)

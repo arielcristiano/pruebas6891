@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./listaCatalogo.module.css";
 import ResponsiveAppBar from "./ResponsiveAppBar";
 import { useState, useEffect } from 'react';
-import { buscarScrims } from '../services/scrimService';
+import { buscarPartidas } from '../services/partidaService';
 
 // Componente principal que muestra el catálogo de productos
 function ListaCatalogo() {
@@ -13,7 +13,7 @@ function ListaCatalogo() {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [searchText, setSearchText] = useState(''); // Estado para la barra de búsqueda
-  // Filtros específicos para partidas/scrims
+  // Filtros específicos para partidas
   const [juego, setJuego] = useState('');
   const [region, setRegion] = useState('');
   const [rangoMin, setRangoMin] = useState('');
@@ -29,12 +29,12 @@ function ListaCatalogo() {
       try {
         setLoading(true);
         setError(null);
-        // Fetch scrims (partidas) using the new service
-        const scrimsData = await buscarScrims({ page: 1, pageSize: 100 });
-        console.log("Scrims recibidos:", scrimsData);
+        // Fetch (partidas) using the new service
+        const partidaData = await buscarPartidas({ page: 1, pageSize: 100 });
+        console.log("Partidas recibidas:", partidasData);
         // backend returns an array; sort by nombre if present
-        const sortedProducts = Array.isArray(scrimsData)
-          ? scrimsData.sort((a, b) => (a.nombre || '').localeCompare(b.nombre || ''))
+        const sortedProducts = Array.isArray(partidasData)
+          ? partidasData.sort((a, b) => (a.nombre || '').localeCompare(b.nombre || ''))
           : [];
         setProducts(sortedProducts);
 
@@ -102,7 +102,7 @@ if (!categoriasResponse.ok) {
         page: 1,
         pageSize: 100
       };
-      const data = await buscarScrims(payload);
+      const data = await buscarPartidas(payload);
       const sorted = Array.isArray(data) ? data.sort((a, b) => (a.nombre || '').localeCompare(b.nombre || '')) : [];
       setProducts(sorted);
     } catch (err) {

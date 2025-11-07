@@ -9,6 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PartidaRepository extends JpaRepository<Partida, Long> {
     // Si necesitas consultas simples puedes agregarlas aquí.
-      List<Partida> findByUsuario(Usuario usuario);
+      List<Partida> findByCreador(Usuario usuario);
     
 }

@@ -40,17 +40,14 @@ public class PartidaController {
     @Autowired //inyecta automaticamente una instancia de productorepository en el controlador
     private PartidaService partidaService;
 
-    @Autowired
-    private PartidaService scrimService; 
-
     @GetMapping
-    public ResponseEntity<?> getAllScrims() {
+    public ResponseEntity<?> getAllPartidas() {
         try {
-            List<Partida> partidas = scrimService.buscarPartidaFiltrados(new PartidaFilterDTO()); // sin filtros
+            List<Partida> partidas = partidaService.buscarPartidaFiltrados(new PartidaFilterDTO()); // sin filtros
             List<PartidaDTO> dtoResults = partidas.stream()
                 .map(PartidaDTO::new)
                 .toList();
-            System.out.println("Controller: Se encontraron " + dtoResults.size() + " scrims");
+            System.out.println("Controller: Se encontraron " + dtoResults.size() + " partidas");
             return ResponseEntity.ok(dtoResults);
         } catch (Exception e) {
             e.printStackTrace();
@@ -99,7 +96,7 @@ public class PartidaController {
 
 
 
-    // 🔹 SCRIMS
+    // 🔹 Partidas
 
     @GetMapping("/filtradas")
     public ResponseEntity<?> buscarPartidas(
@@ -133,7 +130,7 @@ public class PartidaController {
             filtro.setSortBy(sortBy);
             filtro.setSortDir(sortDir);
 
-            List<Partida> results = scrimService.buscarPartidaFiltrados(filtro);
+            List<Partida> results = partidaService.buscarPartidaFiltrados(filtro);
             List<PartidaDTO> dtoResults = results.stream()
                 .map(PartidaDTO::new)
                 .toList();
@@ -141,7 +138,7 @@ public class PartidaController {
             return ResponseEntity.ok(dtoResults);
         } catch (Exception e) {
             e.printStackTrace();
-            return ResponseEntity.status(500).body("Error al buscar scrims");
+            return ResponseEntity.status(500).body("Error al buscar partidas");
         }
     }
 }
