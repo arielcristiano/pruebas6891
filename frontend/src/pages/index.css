@@ -1,0 +1,80 @@
+:root {
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+Header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+ 
+.Nombre {
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.Carrito {
+    position: absolute;
+    right: 3cm;
+    font-size: 2em; 
+    border-radius: 30%;
+}
+  
+.TxtFooter {
+    background-color: white;
+    text-align: center;
+}
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+  
+.home-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+    margin-top: auto;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}

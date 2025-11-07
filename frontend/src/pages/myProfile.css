@@ -1,0 +1,31 @@
+
+
+/* .perfil {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 80px;
+  padding: 0 20px;
+  gap: 16px;
+}
+
+.infoPrincipal {
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-start; 
+  gap: 20px; 
+}
+
+.fotoPerfil {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+}
+.infoPerfil {
+  text-align: left; 
+  padding-top: 10px;
+}
+
+.datosAdicionales p {
+  margin : 0;
+  padding: 0; 
+} */

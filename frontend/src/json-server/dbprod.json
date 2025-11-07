@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Remera Clásica Blanca",
+      "category": "Remera",
+      "brand": "Urban Style",
+      "line": "Essential Collection",
+      "model": "Classic Fit 2025",
+      "price": 29.99,
+      "stock": 45,
+      "description": "Remera blanca confeccionada en 100% algodón peinado de primera calidad. Cuello redondo reforzado, costuras dobles para mayor durabilidad. Corte clásico que se adapta a todo tipo de cuerpo. Ideal para uso diario y perfecta para combinar con cualquier outfit. Disponible en todas las tallas. Lavable a máquina y resistente a múltiples lavados sin perder su forma ni color.",
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "2",
+      "name": "Pantalón Jean Clásico",
+      "category": "Pantalón",
+      "brand": "DenimCo",
+      "line": "Premium Denim",
+      "model": "Regular Comfort",
+      "price": 59.99,
+      "stock": 32,
+      "description": "Jean clásico de corte recto confeccionado en denim premium de 12.5 oz. Mezcla perfecta de 98% algodón y 2% elastano para mayor comodidad. Cinco bolsillos tradicionales, cierre YKK y botón metálico personalizado. Acabado lavado medio que no desgasta con el uso. Costuras reforzadas en puntos de tensión y pretina resistente. Perfecto para uso casual o semiformal.",
+      "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "3",
+      "name": "Campera de Cuero",
+      "category": "Campera",
+      "brand": "Leather Elite",
+      "line": "Urban Riders",
+      "model": "Classic Biker",
+      "price": 129.99,
+      "stock": 18,
+      "description": "Campera de cuero sintético premium con acabado mate. Interior forrado en poliéster satinado para mayor confort. Cuenta con cuatro bolsillos externos con cierre y dos internos. Cierre YKK de alta calidad y broches metálicos en cuello y puños. Diseño atemporal con corte ajustado que estiliza la figura. Tratamiento especial que previene el agrietamiento y mantiene la flexibilidad del material. Ideal para uso diario y salidas nocturnas.",
+      "imagen": "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "5",
+      "name": "Camisa Manga Larga",
+      "category": "Camisa",
+      "brand": "Executive Wear",
+      "line": "Business Collection",
+      "model": "Professional Fit",
+      "price": 49.99,
+      "stock": 8,
+      "description": "Camisa formal en poplin de algodón 100% con acabado anti-arrugas. Diseño slim fit con pinzas en espalda para mejor ajuste. Puños ajustables con dos botones y botón adicional en manga. Cuello con varillas extraíbles para mantener su forma. Botones nacarados y costura de 18 puntadas por pulgada. Ideal para ambiente laboral o eventos formales. Fácil planchado y resistente a lavados frecuentes.",
+      "imagen": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "6",
+      "name": "Pantalón Jean",
+      "category": "Pantalón",
+      "brand": "SportFlex",
+      "line": "Performance Pro",
+      "model": "Training Elite",
+      "price": 39.99,
+      "stock": 53,
+      "description": "Pantalón Jean confeccionado en poliéster de alta calidad con tecnología DryFit. Material transpirable con control de humedad y secado rápido. Bolsillos laterales con cierre y bolsillo trasero con velcro. Cintura elástica ajustable con cordón interno plano. Cremalleras en tobillos para fácil colocación. Paneles mesh estratégicamente ubicados para mejor ventilación. Ideal para entrenamiento y uso casual.",
+      "imagen": "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "7",
+      "name": "Remera Polo",
+      "category": "Remera",
+      "brand": "Polo Elite",
+      "line": "Classic Sport",
+      "model": "Premium Cotton",
+      "price": 34.99,
+      "stock": 41,
+      "description": "Polo confeccionado en piqué de algodón peinado 100%. Tejido de 220g que garantiza excelente caída y durabilidad. Cuello y puños acanalados con mezcla de elastano para mantener su forma. Cartera con tres botones perlados resistentes al lavado. Corte semi-entallado con aberturas laterales. Escudo bordado en el pecho. Ideal para golf, tenis o uso casual elegante. Tratamiento anti-pilling que previene la formación de bolitas.",
+      "imagen": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "8",
+      "name": "Buzo con Capucha",
+      "category": "Buzo",
+      "brand": "UrbanComfort",
+      "line": "Streetwear Premium",
+      "model": "Hoodie Max",
+      "price": 55.99,
+      "stock": 29,
+      "description": "Buzo confeccionado en felpa de algodón premium de 350g. Interior cepillado para mayor calidez y confort. Capucha doble con cordones planos y ojales metálicos. Bolsillo canguro con división interna para celular. Puños y cintura acanalados con elastano de alta recuperación. Costuras flatlock que previenen rozaduras. Ideal para días frescos y uso casual. Proceso de pre-encogido que garantiza estabilidad dimensional.",
+      "imagen": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "9",
+      "name": "Shorts Deportivos",
+      "category": "Shorts",
+      "brand": "SportFlex",
+      "line": "Performance Pro",
+      "model": "Runner Light",
+      "price": 29.99,
+      "stock": 64,
+      "description": "Shorts deportivos ultralivianos con tecnología QuickDry. Malla interior de compresión con tratamiento antibacterial. Cintura elástica con cordón reflectivo ajustable. Bolsillo trasero con cierre impermeable y bolsillo interno para llaves. Panel lateral mesh para ventilación óptima. Costuras planas anti-rozadura. Ideal para running y entrenamiento intenso. Tejido con protección UV 50+ y repelente al agua.",
+      "imagen": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "10",
+      "name": "Remera Deportiva",
+      "category": "Remera",
+      "brand": "SportFlex",
+      "line": "Performance Pro",
+      "model": "DryTech Elite",
+      "price": 32.99,
+      "stock": 47,
+      "description": "Remera deportiva con tecnología avanzada de control de humedad. Tejido ultraliviano de microfibra con tratamiento antibacterial permanente. Paneles mesh estratégicos para máxima ventilación. Costuras planas para prevenir irritación. Diseño ergonómico que permite máxima libertad de movimiento. Protección UV 30+ integrada en el tejido. Ideal para running, training y deportes intensos. Mantiene su forma y propiedades después de múltiples lavados.",
+      "imagen": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "11",
+      "name": "Pantalón Chino",
+      "category": "Pantalón",
+      "brand": "Urban Style",
+      "line": "Casual Premium",
+      "model": "Slim Comfort",
+      "price": 54.99,
+      "stock": 35,
+      "description": "Pantalón chino confeccionado en algodón stretch premium. Corte slim fit moderno con tiro medio. Bolsillos frontales estilo francés y traseros con botón. Pretina con pasadores reforzados y cierre YKK premium. Acabado lavado vintage que mejora con el uso. Teñido reactivo que mantiene el color. Ideal para ocasiones casuales o semi-formales. Disponible en variedad de colores. Perfecto balance entre elegancia y comodidad.",
+      "imagen": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "12",
+      "name": "Campera Deportiva",
+      "category": "Campera",
+      "brand": "SportFlex",
+      "line": "Performance Pro",
+      "model": "WindBreaker Pro",
+      "price": 69.99,
+      "stock": 23,
+      "description": "Campera deportiva ultraligera con tecnología cortavientos. Material repelente al agua con acabado DWR duradero. Bolsillos laterales con cierre y bolsillo interno para dispositivos. Puños elásticos y dobladillo ajustable con cordón. Cuello alto con protección para mentón. Ventilación en espalda con sistema de solapa. Empacable en su propio bolsillo. Ideal para running y actividades outdoor. Reflectivos estratégicamente ubicados para mayor visibilidad.",
+      "imagen": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1"
+    },
+    {
+      "id": "1746898774110",
+      "categoria": "Campera",
+      "marca": "Lacoste",
+      "talle": "M",
+      "stock": 4,
+      "estado": "nuevo",
+      "imagen": "https://production.cdn.vaypol.com/variants/cel8no7n4i5v5qry2lz9a747uekz/e82c8d6171dd25bb538f2e7263b5bc7dfc6a79352d85923074be76df53fbc6f4",
+      "descripcion": "Campera Lacoste Azul Unisex",
+      "userId": "1746715071241",
+      "price": 20.98,
+      "brand": "Lacoste",
+      "name": "Campera Azul",
+      "category": "Campera"
+    },
+    {
+      "id": "1746910721930",
+      "categoria": "Buzo",
+      "marca": "Kongo",
+      "talle": "S",
+      "stock": 21,
+      "estado": "nuevo",
+      "imagen": "https://acdn-us.mitiendanube.com/stores/219/431/products/64dbe12d-b038-4451-9437-7624400df1cf-3ed6330da01fea749d17455756655113-640-0.jpg",
+      "descripcion": "Buzo negro",
+      "userId": "1746715071241",
+      "price": 15.99,
+      "brand": "Kongo",
+      "name": "Kongo Buzo",
+      "category": "Buzo"
+    },
+    {
+      "id": "1747179102487",
+      "categoria": "Remera",
+      "marca": "Adidas",
+      "talle": "M",
+      "stock": 14,
+      "estado": "nuevo",
+      "imagen": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a",
+      "descripcion": "Remera Negra Adidas",
+      "userId": "1746715071241",
+      "price": 13.99,
+      "brand": "Adidas",
+      "name": "Adidas Remera",
+      "category": "Remera"
+    },
+    {
+      "id": "1747353931637",
+      "categoria": "Pantalón",
+      "marca": "elvis",
+      "talle": "S",
+      "stock": 3,
+      "estado": "nuevo",
+      "imagenes": [
+        "blob:http://localhost:5173/cc58eccd-4da6-4706-aa2f-ddb1dd35dd72",
+        "blob:http://localhost:5173/75d5d7a0-feb0-434b-8149-52b53e61bc39"
+      ],
+      "imagen": "blob:http://localhost:5173/cc58eccd-4da6-4706-aa2f-ddb1dd35dd72",
+      "descripcion": "saofjgsiojgotigj",
+      "userId": "1746715071241",
+      "price": 50,
+      "brand": "elvis",
+      "name": "elvis Pantalón",
+      "category": "Pantalón"
+    }
+  ],
+  "users": [
+    {
+      "id": "1746713999719",
+      "nombre": "Juan",
+      "apellido": "Dominguez",
+      "email": "Juandominguez@gmail.com",
+      "usuario": "JuanDominguez1",
+      "password": "Hola123456789",
+      "telefono": "1154221014"
+    },
+    {
+      "id": "1746715071241",
+      "nombre": "Domingo",
+      "apellido": "Pereira",
+      "email": "Dpereira@gmail.com",
+      "usuario": "Dpereira",
+      "password": "Hola123456789",
+      "telefono": "1133665544"
+    }
+  ]
+}

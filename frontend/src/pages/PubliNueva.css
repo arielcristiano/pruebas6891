@@ -1,0 +1,253 @@
+.PublicacionNueva{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    padding: 10px;
+}
+.barra-escritura {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+  
+.input-escritura {
+    padding: 12px;
+    width: 60%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.categoria-container {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 500px;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 40px;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.categoria-select {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.BotonPublicar{
+    margin-left: 20px;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.BotonPublicar:hover {
+    background-color: #0056b3;
+}
+
+.BotonPublicar:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.checkout-button {
+    position: static;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+}
+
+.checkout-button:hover {
+    background-color: #333;
+}
+
+.checkout-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.producto-form {
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.form-section {
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-row .form-section {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input-field-compact {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.input-descripcion {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.descripcion-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 10px 0;
+    width: auto;
+}
+
+.preview-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.preview-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: transform 0.2s;
+}
+
+.preview-images img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image-preview-container {
+    position: relative;
+    display: inline-block;
+}
+
+.remove-image-button {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+    transition: background-color 0.2s;
+}
+
+.remove-image-button:hover {
+    background-color: #cc0000;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
