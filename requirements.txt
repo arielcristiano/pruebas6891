@@ -1,2 +1,2 @@
-py test
-py test-html
+pytest
+pytest-html
