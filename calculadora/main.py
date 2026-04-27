@@ -6,7 +6,7 @@ Interfaz de línea de comandos (CLI).
 from app.calculadora import Calculadora  # Importa la clase Calculadora desde el módulo app
 
 
-def mostrar_menu():  # Función para mostrar el menú principal de opciones
+def mostrar_menu():  # Función para mostrr el menú principal de opciones
     print("\n╔══════════════════════════╗")  # Imprime la línea superior del menú
     print("║     CALCULADORA PYTHON   ║")  # Imprime el título del menú
     print("╠══════════════════════════╣")  # Imprime la línea separadora
